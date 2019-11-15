@@ -6,9 +6,5 @@ def meal_choice(veg1, veg2, protein= "meat")
 return "A plate of #{protein} with #{veg1} and #{veg2}."
 
 end 
-
-def meal_choice(brocoli, macaroni, protein="meat")
-  puts "What a nutritious meal!"
-  return "A plate of #{protein} withe brocoli and macaroni."
-  
-end
+veg1= brocoli
+veg2= macaroni
